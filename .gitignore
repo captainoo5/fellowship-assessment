@@ -41,5 +41,3 @@ coverage.lcov
 .DS_Store
 Thumbs.db
 
-# Agent/CLI tool directories
-.antigravitycli/

@@ -12,11 +12,11 @@ jobs:
       MONGO_URI: ${{ secrets.MONGO_URI }}
       JWT_SECRET: ${{ secrets.JWT_SECRET }}
       PORT: 5000    
-      
-    steps:
-    - uses: actions/checkout@v3
 
-    - uses: actions/setup-node@v3
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-node@v4
       with:
         node-version: 22.16.0
 

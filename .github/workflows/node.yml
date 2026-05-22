@@ -10,7 +10,7 @@ jobs:
     container:
       image: node:22.16.0
     env:
-      MONGO_URI: ${{ secrets.MONGO_URI }}
+      MONGODB_URI: ${{ secrets.MONGO_URI }}
       JWT_SECRET: ${{ secrets.JWT_SECRET }}
       PORT: 5000    
 
